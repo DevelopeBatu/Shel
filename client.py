@@ -8,8 +8,8 @@ from firebase_admin import storage
 import shlex
 
 
-HOST = '127.0.0.1'  # Sunucu IP adresi (localhost)
-PORT = 8080  # Sunucu port numarası
+HOST = '192.168.1.27'  # Sunucu IP adresi (localhost)
+PORT = 3454  # Sunucu port numarası
 
 shell = {
   "type": "service_account",
